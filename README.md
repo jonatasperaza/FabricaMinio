@@ -138,3 +138,12 @@ urlpatterns = [
 ]
 ```
 
+# Créditos
+Este tutorial foi desenvolvido por:
+
+- [Jonatas Peraza](https://github.com/jonatasperaza)
+- [João victor](https://github.com/jaotarzan)
+
+Como parte do projeto na Fábrica de Software IFC. Se você tiver dúvidas ou precisar de suporte adicional, entre em contato conosco.
+
+> Última atualização: Maio de 2025
