@@ -17,17 +17,11 @@ ALLOWED_HOSTS = ["*"]
 
 MINIO_STORAGE_ENDPOINT = os.getenv("MINIO_STORAGE_ENDPOINT", "mytb.fabricadesoftware.ifc.edu.br")
 MINIO_STORAGE_ACCESS_KEY = os.getenv("MINIO_STORAGE_ACCESS_KEY", "hjnRDeC06UzHcB5hkK2M")
-MINIO_STORAGE_SECRET_KEY = os.getenv(
-    "MINIO_STORAGE_SECRET_KEY", "3KC9YQKVc5b7F2p1jh1Zd5CY7m0IOZjtuDXzCiPd"
-)
+MINIO_STORAGE_SECRET_KEY = os.getenv("MINIO_STORAGE_SECRET_KEY", "3KC9YQKVc5b7F2p1jh1Zd5CY7m0IOZjtuDXzCiPd")
 MINIO_STORAGE_USE_HTTPS = os.getenv("MINIO_STORAGE_USE_HTTPS", True)
-MINIO_STORAGE_BUCKET_NAME = os.getenv("MINIO_STORAGE_BUCKET_NAME", "teste")
 MINIO_PUBLIC_URL = os.getenv("MINIO_PUBLIC_URL", "mytb.fabricadesoftware.ifc.edu.br")
-
 DEFAULT_FILE_STORAGE = "django_minio_storage.storage.MinioMediaStorage"
-
 STATICFILES_STORAGE = "django_minio_storage.storage.MinioStaticStorage"
-
 MINIO_STORAGE_MEDIA_BUCKET_NAME = "teste"
 MINIO_STORAGE_AUTO_CREATE_MEDIA_BUCKET = True
 
